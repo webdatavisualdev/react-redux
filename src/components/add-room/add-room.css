@@ -1,0 +1,13 @@
+.container-add-room {
+    width: 100%;
+    height: 100%;
+}
+
+input[type="checkbox"] {
+    position: relative !important;
+}
+
+.back-link {
+    margin-bottom: 30px;
+    display: block;
+}

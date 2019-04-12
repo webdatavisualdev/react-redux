@@ -1,0 +1,27 @@
+input[type="checkbox"] {
+    margin-left: 15px !important;
+}
+
+.workspace-link {
+    color: #49aaf5;
+    margin-left: 20px;
+}
+
+.form-section {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.form-section p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.form-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.form-section input[type='email'] {
+    width: 100%;
+}

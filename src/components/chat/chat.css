@@ -1,0 +1,85 @@
+.container-chat {
+    width: 100%;
+    height: 100%;
+}
+
+.container-chat .row {
+    padding: 15px;
+    max-height: 500px;
+}
+
+.channel {
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid rgb(185, 224, 254);
+    border-radius: 5px;
+}
+
+.channel:hover {
+    background-color: rgb(112, 193, 255);
+}
+
+.channel-list {
+    max-height: 520px;
+    overflow-y: scroll;
+}
+
+.selected {
+    background-color: rgb(185, 224, 254);
+}
+
+.section-message {
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid rgb(185, 224, 254);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.section-send {
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(185, 224, 254);
+    border-radius: 5px;
+}
+
+.sent {
+    text-align: right;
+}
+
+.one-message-container {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 2px 0;
+}
+
+.sent .one-message-container {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(66, 173, 255);
+    color: white;
+}
+
+.received .one-message-container {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+
+.section-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    width: calc(100% - 60px);
+}
+
+.btn-search {
+    margin: 0 !important;
+}

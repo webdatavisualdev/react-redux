@@ -1,0 +1,68 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.container-app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-header {
+  animation: App-logo-spin infinite 20s linear;
+  height: 45px;
+}
+
+.header .nav-buttons {
+  margin-right: 30px;
+  display: flex;
+}
+
+.header .nav-buttons a {
+  color: #eee;
+}
+
+.header .nav-buttons li {
+  list-style: none;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.panel {
+  width: 400px;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.col {
+  margin: 10px 0;
+}
+
+.col input {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  margin: 10px 0 !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
